@@ -14,7 +14,7 @@ context('An example functional test', () => {
 
         // check this is the unium executable
         const about = await u.get('/about');
-        about.Company.should.equal('Helpperi Services Oy');
+        about.Company.should.equal('gwaredd');
         about.Product.should.equal('unium');
 
         // (re)load the tutorial scene (ensures we're in the start state)

@@ -1,14 +1,13 @@
 // global before
 
-before( () => {
-  // ensure all tests have access to 'should'
-  require( 'chai' ).should();
+before(() => {
+    // ensure all tests have access to 'should'
+    require('chai').should();
 })
 
 // test config parameters
 
 module.exports = {
-  url: 'http://localhost:8342',
-  ws: 'ws://localhost:8342/ws'
+    url: 'http://localhost:7100',
+    ws: 'ws://localhost:7100/ws'
 }
-
